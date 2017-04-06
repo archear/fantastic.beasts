@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fantastic.beasts.iml" filepath="$PROJECT_DIR$/fantastic.beasts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fb.00support/fb.00support.iml" filepath="$PROJECT_DIR$/fb.00support/fb.00support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fb.01web/fb.01web.iml" filepath="$PROJECT_DIR$/fb.01web/fb.01web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fb.02provider/fb.02provider.iml" filepath="$PROJECT_DIR$/fb.02provider/fb.02provider.iml" />
     </modules>
   </component>
 </project>

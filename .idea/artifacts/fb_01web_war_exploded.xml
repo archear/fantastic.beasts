@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="fb.01web:war exploded">
+    <output-path>$PROJECT_DIR$/fb.01web/target/fb.01web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fb.01web" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/fb.01web/target/fb.01web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="fb.01web/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -7,10 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fantasticBeasts" />
+        <module name="fb.00support" />
+        <module name="fb.01web" />
+        <module name="fb.02provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fantastic.beasts" target="1.5" />
       <module name="fantasticBeasts" target="1.5" />
+      <module name="fb.00support" target="1.5" />
+      <module name="fb.01web" target="1.5" />
+      <module name="fb.02provider" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
