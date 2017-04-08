@@ -3,6 +3,8 @@
 * create by archer 😭
 */
 工程结构说明：
+    0.support层
+        依赖层()
     1.web层(fb.01web)
         神器动物程序页面显示
     2.provider层(fb.02provider)
@@ -16,11 +18,11 @@
 
     1.登陆接口
         .1接口地址
-        http://localhost:5660/{account}/{password}/login
+        http://localhost:5660/{account}/{password}/login    -→     http://localhost:5660/login?account=zhangsan&password=123
         .2接口返回json
         {
-         "tab":"",//标记0代表失败，1代表成功,
-         "info":"",//信息后台的报错信息,
+         "tab":"1",//标记0代表失败，1代表成功,
+         "info":"已有此人",//信息后台的报错信息,
          "data":[{
                 "id":"1000000000",
                 "name":"张三",
