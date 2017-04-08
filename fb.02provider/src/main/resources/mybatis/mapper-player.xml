@@ -1,0 +1,26 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--为ccsdao提供sql -->
+<mapper namespace="com.wangxia.player.dao.PlayerDao">
+    
+    <select id="selectPlayerByLogin" resultType="Player">
+        select
+          a.id,
+          a.account,
+          a.password,
+          a.name,
+          a.gold
+        from
+          fb.player a
+        where a.account = #{account}
+        and a.password = #{password}
+    </select>
+
+    <insert id="insertPlayerByLogin">
+        insert  ignore into fb.player
+        (account,password,name,gold)
+        VALUES
+        (#{account},#{password},#{name},0)
+    </insert>
+</mapper>
